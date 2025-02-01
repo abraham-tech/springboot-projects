@@ -1,7 +1,7 @@
 package net.javaguides.todomanagement.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.security.core.userdetails.User;
+import net.javaguides.todomanagement.entity.User;
 
 import java.util.Optional;
 
