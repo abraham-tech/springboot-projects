@@ -9,19 +9,21 @@
         <outputRelativeToContentRoot value="true" />
         <module name="todo-management" />
       </profile>
-      <profile name="Annotation profile for transaction-demo" enabled="true">
+      <profile name="Annotation profile for search-api" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
+        <module name="search-api" />
         <module name="transaction-demo" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="search-api" options="-parameters" />
       <module name="todo-management" options="-parameters" />
       <module name="transaction-demo" options="-parameters" />
     </option>
