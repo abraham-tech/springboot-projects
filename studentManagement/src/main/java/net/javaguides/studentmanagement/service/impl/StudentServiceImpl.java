@@ -5,10 +5,12 @@ import net.javaguides.studentmanagement.entity.Student;
 import net.javaguides.studentmanagement.mapper.StudentMapper;
 import net.javaguides.studentmanagement.repository.StudentRepository;
 import net.javaguides.studentmanagement.service.StudentService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Service
 public class StudentServiceImpl implements StudentService {
     private StudentRepository studentRepository;
 
