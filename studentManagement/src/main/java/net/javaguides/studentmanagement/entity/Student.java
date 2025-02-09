@@ -1,13 +1,7 @@
 package net.javaguides.studentmanagement.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-//@NoArgsConstructor
-//@AllArgsConstructor
 @Entity
 @Table(name = "students")
 public class Student {
@@ -19,6 +13,9 @@ public class Student {
     private String lastName;
     @Column(nullable = false, unique = true)
     private String email;
+
+    public Student() {
+    }
 
     public Student(Long id, String email, String firstName, String lastName) {
         this.id = id;
