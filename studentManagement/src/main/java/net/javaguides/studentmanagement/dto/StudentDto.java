@@ -1,12 +1,5 @@
 package net.javaguides.studentmanagement.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
-//@NoArgsConstructor
-@AllArgsConstructor
 public class StudentDto {
     private Long id;
     private String firstName;
@@ -18,6 +11,9 @@ public class StudentDto {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
+    }
+
+    public StudentDto() {
     }
 
     public Long getId() {
