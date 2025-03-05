@@ -1,4 +1,4 @@
-package net.javaguides.webfluxemployeetesting.entity;
+package net.javaguides.webfluxemployeetesting.dto;
 
 public class EmployeeDto {
     private String id;
