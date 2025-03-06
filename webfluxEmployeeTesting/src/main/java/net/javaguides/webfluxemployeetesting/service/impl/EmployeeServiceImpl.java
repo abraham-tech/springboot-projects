@@ -1,18 +1,19 @@
 package net.javaguides.webfluxemployeetesting.service.impl;
 
-import lombok.AllArgsConstructor;
-import net.javaguides.springboot.dto.EmployeeDto;
-import net.javaguides.springboot.entity.Employee;
-import net.javaguides.springboot.mapper.EmployeeMapper;
-import net.javaguides.springboot.repository.EmployeeRepository;
-import net.javaguides.springboot.service.EmployeeService;
+import net.javaguides.webfluxemployeetesting.dto.EmployeeDto;
+import net.javaguides.webfluxemployeetesting.entity.Employee;
+import net.javaguides.webfluxemployeetesting.mapper.EmployeeMapper;
+import net.javaguides.webfluxemployeetesting.repository.EmployeeRepository;
+import net.javaguides.webfluxemployeetesting.service.EmployeeService;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @Service
-@AllArgsConstructor
 public class EmployeeServiceImpl implements EmployeeService {
+    public EmployeeServiceImpl(EmployeeRepository employeeRepository) {
+        this.employeeRepository = employeeRepository;
+    }
 
     private EmployeeRepository employeeRepository;
 

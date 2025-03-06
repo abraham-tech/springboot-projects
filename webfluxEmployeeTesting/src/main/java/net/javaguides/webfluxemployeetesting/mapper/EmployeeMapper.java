@@ -1,7 +1,8 @@
 package net.javaguides.webfluxemployeetesting.mapper;
 
-import net.javaguides.springboot.dto.EmployeeDto;
-import net.javaguides.springboot.entity.Employee;
+
+import net.javaguides.webfluxemployeetesting.dto.EmployeeDto;
+import net.javaguides.webfluxemployeetesting.entity.Employee;
 
 public class EmployeeMapper {
 
