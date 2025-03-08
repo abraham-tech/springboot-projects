@@ -1,4 +1,3 @@
-# springboot-projects
 ## Spring Boot To-Do API
 
 ### Overview
