@@ -10,6 +10,18 @@ This is a simple To-Do API built with Spring Boot that allows users to create, r
 - Update an existing to-do item
 - Delete a to-do item
 
+### Projects 
+
+- custom-queries
+- jpa-practice
+- registration-login-system
+- search-api
+- studentManagement
+- todo-management
+- transaction-demo
+- webFlux-reactive-crud
+- webfluxEmployeeTesting
+
 ### Technologies Used
 - Spring Boot
 - Spring Web
