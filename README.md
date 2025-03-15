@@ -26,7 +26,7 @@ This is a simple To-Do API built with Spring Boot that allows users to create, r
 - Spring Boot
 - Spring Web
 - Spring Data JPA
-- H2 Database (in-memory for development)
+- H2 Database 
 - Lombok
 
 
